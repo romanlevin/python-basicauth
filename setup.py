@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     # Basic package information:
-    name='basicauth',
+    name='basicauth-py3',
     version='0.3',
     py_modules=('basicauth',),
 
@@ -17,10 +17,10 @@ setup(
     install_requires=[],
 
     # Metadata for PyPI:
-    author='Randall Degges',
-    author_email='rdegges@gmail.com',
+    author='Roman Levin',
+    author_email='romanlevin@gmail.com',
     license='UNLICENSE',
-    url='https://github.com/rdegges/python-basicauth',
+    url='https://github.com/romanlevin/python-basicauth',
     keywords='python security basicauth http',
     description='An incredibly simple HTTP basic auth implementation.',
     long_description=open(normpath(join(dirname(abspath(__file__)), 'README.md'))).read()
