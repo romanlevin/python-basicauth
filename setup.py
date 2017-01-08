@@ -6,7 +6,7 @@ from setuptools import setup
 setup(
     # Basic package information:
     name='basicauth-py3',
-    version='0.3',
+    version='0.4',
     py_modules=('basicauth',),
 
     # Packaging options:
